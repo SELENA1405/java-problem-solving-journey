@@ -1,3 +1,5 @@
+public class Warmup1 {
+
 //SleepIn Problem
 /*
 1. The parameter weekday is true if it is a weekday, and the parameter vacation is true if we are on vacation. We sleep in if it is not a weekday or we're on vacation. Return true if we sleep in.
@@ -7,10 +9,27 @@ sleepIn(false, true) → true
 */
 
 //My Solution 
-public boolean sleepIn(boolean weekday, boolean vacation){
+  public boolean sleepIn(boolean weekday, boolean vacation){
         if (!weekday || vacation){
             return true;
         } return false;
- } 
+  } 
+        
+//monkeyTrouble
+/*
+We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if each is smiling. We are in trouble if they are both smiling or if neither of them is smiling. Return true if we are in trouble.
+monkeyTrouble(true, true) → true
+monkeyTrouble(false, false) → true
+monkeyTrouble(true, false) → false
+*/
 
+//My Solution 
+        public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+  if (aSmile == bSmile){
+    return true;
+  } return false;
+}
+
+        // to be continued...
+}
 
