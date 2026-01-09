@@ -57,6 +57,20 @@ public class Warmup1 {
   } return false;
 }
 
-        // to be continued...
+// =============================
+//       6. makes10
+// =============================
+
+//My Solution 
+  public boolean makes10(int a, int b) {
+  if ((a == 10 || b == 10) || (a+b) == 10) {
+    return true;
+  } return false;
+}
+  
+// =============================
+//       6. makes10
+// =============================
+  
 }
 
