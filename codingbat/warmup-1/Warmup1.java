@@ -100,6 +100,19 @@ public class Warmup1 {
   } return "not " + str;
 }
 
+// =============================
+//       10. missingChar
+// =============================
+
+//My Solution
+  public String missingChar(String str, int n) {
+  String last = str.substring(n+1);
+  String first = str.substring(0, n);
+  String result = first + last;
+  return result;
+}
+
+  // to be continued ...
   
 }
 
