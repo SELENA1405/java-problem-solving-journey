@@ -89,5 +89,17 @@ public class Warmup1 {
             ( a < 0 && b < 0 && negative )); 
 }
   
+// =============================
+//       9. notString
+// =============================
+
+//My Solution 
+  public String notString(String str) {
+  if (str.startsWith("not")) {
+    return str;
+  } return "not " + str;
+}
+
+  
 }
 
