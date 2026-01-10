@@ -1,5 +1,5 @@
 # java-problem-solving-journey
-This repository contains my Java solutions to problem-solving exercises from **CodingBat**, created as part of my learning journey in programming and software engineering.
+This repository contains my Java solutions to various problem-solving exercises as part of my learning journey in programming and software engineering.
 
 ---
 
