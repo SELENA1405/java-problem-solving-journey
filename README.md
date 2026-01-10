@@ -1,4 +1,4 @@
-# java-problem-solving-journey
+# Java Problem Solving Journey 
 This repository contains my Java solutions to various problem-solving exercises as part of my learning journey in programming and software engineering.
 
 ---
