@@ -112,7 +112,20 @@ public class Warmup1 {
   return result;
 }
 
-  // to be continued ...
+// =============================
+//       11. frontBack
+// =============================
+
+//My Solution 
+  public String frontBack(String str) {
+  char[] charArray = str.toCharArray();
+  if (str.length() != 0){
+  char temp = charArray[0]; 
+  charArray[0] = charArray[str.length()-1];
+  charArray[str.length()-1] = temp;
+  }
+  return new String(charArray);
+}
   
 }
 
