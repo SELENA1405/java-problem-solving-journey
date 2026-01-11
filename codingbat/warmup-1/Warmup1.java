@@ -162,6 +162,19 @@ public class Warmup1 {
   } return false;
 }
 
+// =============================
+//       15. front22
+// =============================
+
+//My Solution 
+  public String front22(String str) {
+  if (str.length() >= 2) {
+    return str.substring(0,2) + str + str.substring(0,2);
+  } return str + str + str;
+}
+  
+ //to be continued ...
+  
 } 
 
 
