@@ -140,6 +140,18 @@ public class Warmup1 {
   } return str;
 }
 
+// =============================
+//       13. backAround
+// =============================
+
+//My Solution 
+  public String backAround(String str) {
+  int lastIndex = str.length()-1;
+  char last = str.charAt(lastIndex);
+  return last + str + last;
+}
+
+
 } 
 
 
