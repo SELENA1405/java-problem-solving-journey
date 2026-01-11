@@ -127,5 +127,19 @@ public class Warmup1 {
   return new String(charArray);
 }
   
+// =============================
+//       12. front3
+// =============================
+
+//My Solution 
+  public String front3(String str) {
+  if (str.length() <= 3){
+     return str + str + str;
+  } else if (str.length() > 3 ){
+     return str.substring(0,3) + str.substring(0,3) + str.substring(0,3) ;
+  } return str;
 }
+
+} 
+
 
