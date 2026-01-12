@@ -187,9 +187,14 @@ public class Warmup1 {
 }
 
 // =============================
-//       17. front22
+//       17. icyHot
 // =============================
 
+//My Solution 
+  public boolean icyHot(int temp1, int temp2) {
+  return (temp1 < 0 && temp2 > 100) || (temp1 > 100 && temp2 < 0);
+}
+  
 // =============================
 //       18. front22
 // =============================
