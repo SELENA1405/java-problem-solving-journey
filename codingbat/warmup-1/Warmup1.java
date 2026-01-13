@@ -272,6 +272,22 @@ public class Warmup1 {
   } return "";
 }
 
+// =============================
+//       24. intMax
+// =============================
+
+//My Solution 
+  public int intMax(int a, int b, int c) {
+  if (c > b && c > a){
+    return c;
+  } else if (a > b && a > c){
+    return a;
+  } else if (b > a && b > c) {
+    return b;
+  } return a;
+}
+
+  
   
  //to be continued ...
   
