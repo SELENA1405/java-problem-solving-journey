@@ -248,6 +248,30 @@ public class Warmup1 {
   } return str.substring(1, 3).equals("ix");
 }
 
+// =============================
+//       23. startOz
+// =============================
+
+//My Solution 
+  public String startOz(String str) {
+  if (str.length() < 2 && str.length() > 0 ){
+    if (str.substring(0,1).equals("o")){
+      return "o";
+    } else {
+      return "";
+    }
+  }
+  if (str.length() >= 2) {
+    if (str.substring(0,2).equals("oz")){
+      return str.substring(0,2);
+    } else if (str.substring(0, 1).equals("o")){
+      return str.substring(0,1);
+    } else if (str.substring(1,2).equals("z")) {
+      return "z";
+    }
+  } return "";
+}
+
   
  //to be continued ...
   
