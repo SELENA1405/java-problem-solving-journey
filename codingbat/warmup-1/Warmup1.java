@@ -287,7 +287,18 @@ public class Warmup1 {
   } return a;
 }
 
-  
+// =============================
+//       25. close10
+// =============================
+
+//My Solution 
+  public int close10(int a, int b) {
+  if (Math.abs(a - 10) < Math.abs(b - 10)) {
+    return a;
+  }else if (Math.abs(a - 10) > Math.abs(b - 10)) {
+    return b; 
+  } return 0;
+}
   
  //to be continued ...
   
