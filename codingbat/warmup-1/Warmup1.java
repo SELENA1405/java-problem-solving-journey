@@ -343,10 +343,13 @@ public class Warmup1 {
 }
   
 // =============================
-//       29. close10
+//       29. lastDigit
 // =============================
 
 //My Solution 
+  public boolean lastDigit(int a, int b) {
+  return (b % 10 == a) || (a % 10 == b);
+}
 
 // =============================
 //       30. close10
