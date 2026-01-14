@@ -352,9 +352,18 @@ public class Warmup1 {
 }
 
 // =============================
-//       30. close10
+//       30. endUp
 // =============================
 
+//My Solution 
+  public String endUp(String str) {
+  if (str.length() < 3) {
+    return str.toUpperCase();
+  } else if (str.length() >= 3){
+    String last = str.substring(str.length()-3, str.length());
+    return str.substring(0, str.length()-3) + last.toUpperCase();
+  } return str;
+}
   
  //to be continued ...
   
