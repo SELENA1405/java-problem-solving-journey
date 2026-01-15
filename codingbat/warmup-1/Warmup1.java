@@ -364,8 +364,22 @@ public class Warmup1 {
     return str.substring(0, str.length()-3) + last.toUpperCase();
   } return str;
 }
-  
- //to be continued ...
+
+// =============================
+//       31. everyNth
+// =============================
+
+//My Solution 
+  public String everyNth(String str, int n) {
+  String result = "";
+  for (int i = 0; i < str.length(); i++){
+    if (i % n ==0){
+      result += str.charAt(i);
+    }
+  } return result;
+}
+
+  //Warmup-1 ended
   
 } 
 
