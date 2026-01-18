@@ -113,6 +113,19 @@ public class Warmup2 {
   } return count;
 }
 
+// =============================
+//       9. arrayFront9
+// =============================
+
+//My Solution
+  public boolean arrayFront9(int[] nums) {
+  int limit = 4;
+  for (int i = 0; i < nums.length && i < limit; i ++){
+    if (nums[i] == 9) return true;
+  } return false;
+}
+
+
 
 // to be continued ...
   
