@@ -85,6 +85,22 @@ public class Warmup2 {
   } return result;
 }
 
+// =============================
+//       7. last2
+// =============================
+
+//My Solution 
+  public int last2(String str) {
+  int count = 0;
+  if (str.length() <=2) { return 0; }
+  String last = str.substring(str.length()-2, str.length());
+  for (int i = 0; i < str.length()-2; i ++){
+    if (str.substring(i, i+2).equals(last)){
+      count++;
+    }
+  }return count;
+}
+
 
 // to be continued ...
   
