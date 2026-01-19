@@ -136,6 +136,21 @@ public class Warmup2 {
   } return false;
 }
 
+// =============================
+//       11. stringMatch
+// =============================
+
+//My Solution 
+  public int stringMatch(String a, String b) {
+  int count = 0; 
+  for (int i = 0; i < a.length()-1 && i < b.length()-1; i ++){
+    if(a.substring(i, i+2).equals(b.substring(i, i+2))) count ++;
+  } return count;
+}
+//At first, the condition was only less than length of a and it caused StringIndexOutOfBoundException, and after realizing i solved it by adding another condition 
+//While solving this, I got confused using the substring and did i+1 instead of i+2 and could only solve it after tracing the code
+
+
 // to be continued ...
   
 }
