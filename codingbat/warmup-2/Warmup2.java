@@ -150,7 +150,25 @@ public class Warmup2 {
 //At first, the condition was only less than length of a and it caused StringIndexOutOfBoundException, and after realizing i solved it by adding another condition 
 //While solving this, I got confused using the substring and did i+1 instead of i+2 and could only solve it after tracing the code
 
+// =============================
+//       12. stringX
+// =============================
 
+//My Solution 
+  public String stringX(String str) {
+  String result = "";
+  for (int i = 0; i < str.length(); i ++){
+    char c = str.charAt(i);
+    if (c != 'x' || (c == 'x' && (i == 0 || i == str.length()-1))){
+      result += c;
+    }else {
+      result += "";
+    }
+  } return result;
+}
+
+
+  
 // to be continued ...
   
 }
