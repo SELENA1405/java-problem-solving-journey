@@ -167,6 +167,24 @@ public class Warmup2 {
   } return result;
 }
 
+// =============================
+//       13. altPairs
+// =============================
+
+//My Solution 
+  public String altPairs(String str) {
+  String result = "";
+  for (int i = 0; i < str.length(); i ++) {
+    if (i % 4 == 0){
+      result += str.charAt(i);
+      if (i < str.length()-1){
+        result += str.charAt(i+1);
+      }
+    }
+  } return result;
+}
+
+  
 
   
 // to be continued ...
