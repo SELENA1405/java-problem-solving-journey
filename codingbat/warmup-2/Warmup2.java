@@ -184,6 +184,31 @@ public class Warmup2 {
   } return result;
 }
 
+// =============================
+//       14. stringYak
+// =============================
+
+//My Solution 
+  public String stringYak(String str) {
+  String result = "";
+  for ( int i = 0; i < str.length(); i ++ ) {
+    if (str.length()-i >= 3) {
+      char first = str.charAt(i);
+      char end = str.charAt(i+2);
+      if (first == 'y' && end == 'k' ) {
+        i = i + 2;
+      } else {
+      result += str.charAt(i);
+      } 
+    } else {
+      result += str.charAt(i);
+    }
+  } return result;
+}
+//Solving this i had a really hard time and asked chatgpt to give me some hints (i didn't ask for the full answer just one hint). 
+//I will try to find a simpler solution in the future
+
+
   
 
   
