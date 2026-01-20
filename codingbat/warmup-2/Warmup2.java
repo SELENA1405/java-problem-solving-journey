@@ -231,6 +231,20 @@ public class Warmup2 {
   }
   return true;
 }
+
+// =============================
+//       17. has271
+// =============================
+
+//My Solution 
+  public boolean has271(int[] nums) {
+  for ( int i = 0; i < (nums.length-2); i ++ ) {
+    int v1 = nums[i];
+    int v2 = nums[i+1];
+    int v3 = nums[i+2];
+    if (v2 == v1+5 && Math.abs(v3 - (v1-1)) <= 2) return true;
+  } return false;
+}
   
 // to be continued ...
   
