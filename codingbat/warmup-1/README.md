@@ -42,3 +42,22 @@ We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if e
   }
 ```
 ---
+
+## 3. sumDouble
+**Problem:**  
+Given two int values, return their sum. Unless the two values are the same, then return double their sum.
+
+**Examples:**
+- sumDouble(1, 2) → 3
+- sumDouble(3, 2) → 5
+- sumDouble(2, 2) → 8
+
+**Solution:** 
+```java
+  public int sumDouble(int a, int b) {
+  if (a == b) {
+    return 2 * (a+b);
+  } return a + b;
+}
+```
+---
