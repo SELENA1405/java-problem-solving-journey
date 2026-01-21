@@ -18,6 +18,26 @@ public class String1 {
   return a + b + b + a;
 }
 
+// =============================
+//    3. makeTags
+// =============================
+
+//My Solution 
+  public String makeTags(String tag, String word) {
+  return "<" + tag + ">" + word + "</" + tag + ">";
+}
+
+// =============================
+//    4. makeOutWord
+// =============================
+
+//My Solution 
+  public String makeOutWord(String out, String word) {
+  return out.substring(0, 2) + word + out.substring(2);
+}
+  
   // to be continued ... 
   
 }
+
+
