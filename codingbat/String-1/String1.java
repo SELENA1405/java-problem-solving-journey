@@ -41,6 +41,10 @@ public class String1 {
 // =============================
 
 //My Solution 
+  public String extraEnd(String str) {
+  String end = str.substring(str.length()-2);
+  return end + end + end;
+}
   
   // to be continued ... 
   
