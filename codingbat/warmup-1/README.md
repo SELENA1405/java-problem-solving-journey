@@ -103,3 +103,22 @@ We have a loud talking parrot. The "hour" parameter is the current hour time in 
 }
 ```
 ---
+
+## 6. makes10
+**Problem:**  
+Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
+
+**Examples:**
+- makes10(9, 10) → true
+- makes10(9, 9) → false
+- makes10(1, 9) → true
+
+**Solution:** 
+```java
+ public boolean makes10(int a, int b) {
+  if ((a == 10 || b == 10) || (a+b) == 10) {
+    return true;
+  } return false;
+}
+```
+---
