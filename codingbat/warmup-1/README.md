@@ -3,6 +3,8 @@
 This folder documents my solutions and learning progress
 while solving the CodingBat Warmup-1 problems.
 
+Note: There are 31 questions in total. 
+
 ---
 
 ## 1. sleepIn
