@@ -23,3 +23,20 @@ Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".
 }
 ```
 ---
+
+## 2. makeAbba
+**Problem:**  
+Given two strings, a and b, return the result of putting them together in the order abba, e.g. "Hi" and "Bye" returns "HiByeByeHi".
+
+**Examples:**
+- makeAbba("Hi", "Bye") → "HiByeByeHi"
+- makeAbba("Yo", "Alice") → "YoAliceAliceYo"
+- makeAbba("What", "Up") → "WhatUpUpWhat"
+
+**Solution:**
+```java
+  public String makeAbba(String a, String b) {
+  return a + b + b + a;
+}
+```
+---
