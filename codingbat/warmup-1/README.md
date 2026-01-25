@@ -199,3 +199,26 @@ public String missingChar(String str, int n) {
 }
 ```
 ---
+
+## 11. frontBack
+**Problem:**  
+Given a string, return a new string where the first and last chars have been exchanged.
+
+**Examples:**
+- frontBack("code") → "eodc"
+- frontBack("a") → "a"
+- frontBack("ab") → "ba"
+  
+**Solution:** 
+```java
+public String frontBack(String str) {
+  char[] charArray = str.toCharArray();
+  if (str.length() != 0){
+  char temp = charArray[0]; 
+  charArray[0] = charArray[str.length()-1];
+  charArray[str.length()-1] = temp;
+  }
+  return new String(charArray);
+}
+```
+---
