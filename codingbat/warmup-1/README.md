@@ -141,3 +141,22 @@ Given an int n, return true if it is within 10 of 100 or 200. Note: Math.abs(num
 }
 ```
 ---
+
+## 8. posNeg
+**Problem:**  
+Given 2 int values, return true if one is negative and one is positive. Except if the parameter "negative" is true, then return true only if both are negative.
+
+**Examples:**
+- posNeg(1, -1, false) → true
+- posNeg(-1, 1, false) → true
+- posNeg(-4, -5, true) → true
+
+**Solution:** 
+```java
+public boolean posNeg(int a, int b, boolean negative) {
+  return ((((a > 0 && b < 0) ||
+          ( a < 0 && b > 0)) && !negative ) ||
+          ( a < 0 && b < 0 && negative )); 
+}
+```
+---
