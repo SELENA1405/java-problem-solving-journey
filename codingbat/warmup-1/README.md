@@ -122,3 +122,22 @@ Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
 }
 ```
 ---
+
+## 7. nearHundred
+**Problem:**  
+Given an int n, return true if it is within 10 of 100 or 200. Note: Math.abs(num) computes the absolute value of a number.
+
+**Examples:**
+- nearHundred(93) → true
+- nearHundred(90) → true
+- nearHundred(89) → false
+
+**Solution:** 
+```java
+ public boolean nearHundred(int n) {
+  if ((n >= 90 && n <= 110) || (n >= 190 && n <= 210) ){
+    return true;
+  } return false;
+}
+```
+---
