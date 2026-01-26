@@ -243,3 +243,24 @@ public String front3(String str) {
 }
 ```
 ---
+
+## 13. backAround
+**Problem:**  
+Given a string, take the last char and return a new string with the last char added at the front and back, so "cat" yields "tcatt". The original string will be length 1 or more.
+
+**Examples:**
+- backAround("cat") → "tcatt"
+- backAround("Hello") → "oHelloo"
+- backAround("a") → "aaa"
+  
+**Solution:** 
+```java
+public String backAround(String str) {
+  int lastIndex = str.length()-1;
+  char last = str.charAt(lastIndex);
+  return last + str + last;
+}
+```
+---
+
+
