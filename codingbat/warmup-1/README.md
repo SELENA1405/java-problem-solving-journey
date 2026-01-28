@@ -340,4 +340,22 @@ public boolean icyHot(int temp1, int temp2) {
 ```
 ---
 
+## 18.  in1020
+**Problem:**  
+Given 2 int values, return true if either of them is in the range 10..20 inclusive.
+
+**Examples:**
+- in1020(12, 99) → true
+- in1020(21, 12) → true
+- in1020(8, 99) → false
+
+**Solution:** 
+```java
+public boolean in1020(int a, int b) {
+  return (a >= 10 && a <= 20) || 
+         (b >= 10 && b <= 20);
+}
+```
+---
+
 
